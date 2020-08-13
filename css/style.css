@@ -1769,3 +1769,40 @@ padding:50px 0
     padding: 22px 0 14px;
     font-size: 18px;
 }
+
+.container2 {
+	text-align : center;
+	padding: 0px 40px;
+	color: white;
+}
+.email-box {
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.email-box i{
+	background: #0000AB;
+	width: 40px;
+	line-height: 40px;
+}
+.tbox, .btn {
+	border: none;
+	outline: none;
+}
+.tbox {
+	width: 0px;
+	transition: 0.6s;
+	color: black;
+}
+.email-box:hover > .tbox, .tbox:focus {
+	width: 260px ;
+	padding: 0 10px;
+}
+.btn {
+	background :#2f3542;
+	color: white;
+	padding: 0 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
